@@ -70,5 +70,5 @@ pub fn build(b: *std.build.Builder) void {
         .flags = &flags,
     });
     b.installArtifact(lib);
-    lib.installHeadersDirectory("tree-sitter/lib/include/tree_sitter", "tree_sitter");
+    // lib.installHeadersDirectory("tree-sitter/lib/include/tree_sitter", "tree_sitter");
 }
